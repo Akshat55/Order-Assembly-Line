@@ -11,13 +11,14 @@ Assembly line simulation. Customer orders using processors that perform tasks of
 **Source** - executes the assembly line simulator for realistic data  
 
 
-Compilation & Exection **(Using GCC - Not visual studio compiler, everything has to be in the current file)**:   
-Navigate to the directory where the project resides using the CLI.    
+### Compilation & Exection:   
+Navigate to the directory where the project resides using the CLI **(Using GCC - Everything has to be in the current file)** .    
   
-> g++ \*.cpp -std=c++0x  
+**g++ \*.cpp -std=c++0x**  
   
-This will create Order-Assembly-Line executable. Enter the following to run the executable.    
-> Order-Assembly-Line "TaskList_Malformed.dat" "CustomerOrders_Malformed.dat" "ItemList_Malformed.dat" "|"
+This will create Order-Assembly-Line executable. Enter the following to run the executable:  
+  
+**Order-Assembly-Line "TaskList_Malformed.dat" "CustomerOrders_Malformed.dat" "ItemList_Malformed.dat" "|"**
 
 
 
