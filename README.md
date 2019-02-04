@@ -12,3 +12,4 @@ Assembly line simulation. Customer orders using processors that perform tasks of
 
 
 ### UML Diagram
+![About landing](/images/UML.PNG)
