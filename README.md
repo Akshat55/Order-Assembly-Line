@@ -8,7 +8,17 @@ Assembly line simulation. Customer orders using processors that perform tasks of
 **Customer Orders** - handles each customer order passing through the assembly line  
 **Managers** - manages the tasks, customer orders and items passing through the assembly line  
 **Assembly Line** - manages the processors that constitute the assembly line  
-**Test Suite** - executes the assembly line simulator for realistic data  
+**Source** - executes the assembly line simulator for realistic data  
+
+
+Compilation & Exection **(Using GCC - Not visual studio compiler, everything has to be in the current file)**:   
+Navigate to the directory where the project resides using the CLI.    
+  
+> g++ \*.cpp -std=c++0x  
+  
+This will create Order-Assembly-Line executable. Enter the following to run the executable.    
+> Order-Assembly-Line "TaskList_Malformed.dat" "CustomerOrders_Malformed.dat" "ItemList_Malformed.dat" "|"
+
 
 
 ### UML Diagram
