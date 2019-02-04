@@ -12,7 +12,7 @@ Assembly line simulation. Customer orders using processors that perform tasks of
 
 
 ### Compilation & Exection:   
-Navigate to the directory where the project resides using the CLI **(Using GCC - Everything has to be in the current file)** .    
+Navigate to the directory where the project resides using the CLI **(Using GCC - Everything has to be in the current file)**.    
   
 **g++ \*.cpp -std=c++0x**  
   
